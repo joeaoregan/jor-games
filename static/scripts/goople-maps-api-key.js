@@ -1,0 +1,1 @@
+const GOOGLE_API_KEY="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnPlpaOkOXGB3txUt6hHqBEHVMePd8nZU&callback=myMap";
