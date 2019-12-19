@@ -31,6 +31,9 @@
 </head>
 
 <body>
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v5.0"></script>
+
 	<!-- Anchor to return to top of page from bottom -->
 	<!-- Anchor name: https://www.w3schools.com/tags/att_a_name.asp -->
 	<a id="topofpage"></a>
@@ -59,7 +62,10 @@
 			<div>
 				<script src="scripts/logo-jquery.js"></script>
 
+				<div class="fb-like" data-href="https://jimgames.herokuapp.com/index.html" data-width="300" data-layout="button_count" data-action="like" data-size="small" data-share="true"></div>
+
 				<h1 id="welcome-personalise">Welcome to J.I.M Games</h1>
+				
 
 				<div id="welcome">
 					<p>
@@ -214,8 +220,9 @@
 
 					<p><a href="antibody.html" title="Go To Antibody Game">Click Here</a> to play Antibody</p>
 				</div>
-
 			</div>
+			
+			<div class="fb-like" data-href="https://jimgames.herokuapp.com/antibody.html" data-width="300" data-layout="button_count" data-action="like" data-size="small" data-share="true"></div>
 		</div>
 
 		<!-- Flappy Bird information section -->
@@ -354,7 +361,7 @@
 			<h2>Our Games</h2>
 
 			<a href="antibody.html">Antibody</a>
-			<a href="connect5.html">Connect5</a>
+			<a href="connect5.html">Connect 5 Multiplayer</a>
 			<a href="flappybird.html">Flappy Bird</a>
 			<a href="spaceinvaders.html">Space Invaders</a>
 			<a href="register.html">Register</a>
