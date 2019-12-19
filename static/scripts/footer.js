@@ -16,6 +16,7 @@ function createFooter(className) {
                 <div class="footer-left">
                     <a href="index.html" title="Return To Homepage">Home</a> |
                     <a href="antibody.html" title="Play Antibody">Antibody</a> |
+                    <a href="connect5.html" title="Play Multiplayer Connect 5">Connect 5 Multiplayer</a> |
                     <a href="flappybird.html" title="Play Flappy Bird">Flappy Bird</a> |
                     <a href="spaceinvaders.html" title="Play Space Invaders">Space Invaders</a> |
                     <a href="register.html" title="Register With Us">Register</a> |

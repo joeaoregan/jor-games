@@ -26,7 +26,7 @@ var menuItems = [
 	{
 		"name": "Connect 5",
 		"url": "connect5.html",
-		"title": "Play Connect5",
+		"title": "Play Connect5 Multiplayer",
 		"id": "menu-connect5"
 	},
 	{
