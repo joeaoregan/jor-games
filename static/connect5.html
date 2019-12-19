@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Connect 5</title>
+		<!--Main style sheet -->
+		<link href="css/style.css" rel="stylesheet" />
+		<link rel="stylesheet" href="game-connect5/css/style.css">
+		<link rel="stylesheet" href="game-connect5/css/chat-style.css">
+		<link rel="shortcut icon" href="game-connect5/favicon.ico">
+	</head>
+
+	<body>
+		<!--Anchor to return to top of page from bottom-->
+		<a id="topofpage"></a>
+	
+		<div class="menu stretch">
+			<div id="menu" class="center"></div><!-- menu.js: displays the menu here -->
+			<script src="scripts/menu.js"></script>
+		</div>
+
+		<div class="heading">
+			<h1>Connect 5</h1>
+			<h2>by Joe O'Regan</h2>
+		</div>
+			
+		<div class="body-border">
+			<!-- <div class="main"> -->
+			<div class="selectGame" id="selectGame">		
+				<div class="body-section">
+					<h2>Create A New Game</h2>
+					<h3>Player 1:</h3>
+					<p>Enter Username and select "Create Game" or press "Enter"</p>
+					
+					<input type="text" id="username1" placeholder="Username" required autofocus>
+					<!-- <button class="button" id="newGameBtn">Create Game</button>--> 
+					<button id="newGameBtn">Create Game</button>
+				</div>
+		
+				<div class="body-section">
+					<h2>Join an existing game</h2>
+					<h3>Player 2:</h3> 
+					<p>Enter Username and Game ID from Player 1. Then Select "Join Game" or press "Enter"</p>
+
+					<input type="text" id="username2" placeholder="Username" required>
+					<input type="text" id="gameID" placeholder="Game To Join" required>
+					<!-- <button class="button" id="existingBtn">Join Game</button> -->
+					<button id="existingBtn">Join Game</button>
+				</div>
+			</div>
+			
+			<div class="test">
+				<div class="gameBoard" id="gameBoard">
+					<h1 id="show-gameid"></h1>
+					<h2 id="username"></h2>
+
+					<p id="displayMessage"></p>
+					<!-- Display the number of games won -->
+					<h2>Head-To-Head</h2>
+					<p id="winsID"></p>
+					
+					<table class="frame" id="frame2">
+						<tr>
+						<td id="column-0" class="column" title="Column 1">
+							<table>
+								<tr><td class="col0" id="0"></td></tr>
+								<tr><td class="col0" id="1"></td></tr>
+								<tr><td class="col0" id="2"></td></tr>
+								<tr><td class="col0" id="3"></td></tr>
+								<tr><td class="col0" id="4"></td></tr>
+								<tr><td class="col0" id="5"></td></tr>
+							</table>
+						</td>
+						<td id="column-1" class="column" title="Column 2">
+							<table>
+								<tr><td class="col1" id="0"></td></tr>
+								<tr><td class="col1" id="1"></td></tr>
+								<tr><td class="col1" id="2"></td></tr>
+								<tr><td class="col1" id="3"></td></tr>
+								<tr><td class="col1" id="4"></td></tr>
+								<tr><td class="col1" id="5"></td></tr>
+							</table>
+						</td>
+						<td id="column-2" class="column" title="Column 3">
+							<table>
+								<tr><td class="col2" id="0"></td></tr>
+								<tr><td class="col2" id="1"></td></tr>
+								<tr><td class="col2" id="2"></td></tr>
+								<tr><td class="col2" id="3"></td></tr>
+								<tr><td class="col2" id="4"></td></tr>
+								<tr><td class="col2" id="5"></td></tr>
+							</table>
+						</td>
+						<td id="column-3" class="column" title="Column 4">
+							<table>
+								<tr><td class="col3" id="0"></td></tr>
+								<tr><td class="col3" id="1"></td></tr>
+								<tr><td class="col3" id="2"></td></tr>
+								<tr><td class="col3" id="3"></td></tr>
+								<tr><td class="col3" id="4"></td></tr>
+								<tr><td class="col3" id="5"></td></tr>
+							</table>
+						</td>
+						<td id="column-4" class="column" title="Column 5">
+							<table>
+								<tr><td class="col4" id="0"></td></tr>
+								<tr><td class="col4" id="1"></td></tr>
+								<tr><td class="col4" id="2"></td></tr>
+								<tr><td class="col4" id="3"></td></tr>
+								<tr><td class="col4" id="4"></td></tr>
+								<tr><td class="col4" id="5"></td></tr>
+							</table>
+						</td>
+						<td id="column-5" class="column" title="Column 6">
+							<table>
+								<tr><td class="col5" id="0"></td></tr>
+								<tr><td class="col5" id="1"></td></tr>
+								<tr><td class="col5" id="2"></td></tr>
+								<tr><td class="col5" id="3"></td></tr>
+								<tr><td class="col5" id="4"></td></tr>
+								<tr><td class="col5" id="5"></td></tr>
+							</table>
+						</td>
+						<td id="column-6" class="column" title="Column 7">
+							<table>
+								<tr><td class="col6" id="0"></td></tr>
+								<tr><td class="col6" id="1"></td></tr>
+								<tr><td class="col6" id="2"></td></tr>
+								<tr><td class="col6" id="3"></td></tr>
+								<tr><td class="col6" id="4"></td></tr>
+								<tr><td class="col6" id="5"></td></tr>
+							</table>
+						</td>
+						<td id="column-7" class="column" title="Column 8">
+							<table>
+								<tr><td class="col7" id="0"></td></tr>
+								<tr><td class="col7" id="1"></td></tr>
+								<tr><td class="col7" id="2"></td></tr>
+								<tr><td class="col7" id="3"></td></tr>
+								<tr><td class="col7" id="4"></td></tr>
+								<tr><td class="col7" id="5"></td></tr>
+							</table>
+						</td>
+						<td id="column-8" class="column" title="Column 9">
+							<table>
+								<tr><td class="col8" id="0"></td></tr>
+								<tr><td class="col8" id="1"></td></tr>
+								<tr><td class="col8" id="2"></td></tr>
+								<tr><td class="col8" id="3"></td></tr>
+								<tr><td class="col8" id="4"></td></tr>
+								<tr><td class="col8" id="5"></td></tr>
+							</table>
+						</td>
+						</tr>
+					</table>			
+					<br>			
+					
+					<div><h2 id="player_info"></h2></div>
+					
+					<!-- <button onClick="resetGameButton()" class="button">Reset Game</button> -->
+					<!-- <button onClick="leaveGameButton()" class="button">Leave Game</button> -->
+					<button onClick="resetGameButton()">Reset Game</button>
+					<button onClick="leaveGameButton()">Leave Game</button>
+					<br><br>
+				</div>
+			</div>
+			<!-- </div> -->
+			
+			<div class="hidechat" id="hidechat">		
+				<div class="chatdiv" id="chatdiv">			
+					<div class="msgdiv" id = "msgList"></div>
+					
+					<div class="input-control">
+						<input type="text" id="messagetext" placeholder="Write here..." class="inputTxt"/>
+						<!-- <button id="inputBtn" class="button inputBtn">Send</button> -->
+						<button id="inputBtn" class="inputBtn">Send</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="body-border">
+			<div class="footer">			
+				<h2>Links</h2>
+				
+				<table class="linkTbl">
+					<tr><th>Play Online</th><th>GitHub</th></tr>
+					<tr>
+						<td>
+							<a href="https://connect5-jor.herokuapp.com/" target="_blank">Connect 5 Heroku</a><br>
+							<a href="https://chat-jor.herokuapp.com/" target="_blank">Chat Example App</a><br>
+							<a href="https://antibody-js.herokuapp.com/" target="_blank">Antibody JS</a><br>
+							<a href="https://jimgames.herokuapp.com/" target="_blank">College Game Website Project</a>
+						</td>
+						<td>
+							<a href="https://github.com/joeaoregan/Connect5-JS" target="_blank">JavaScript (This App)</a><br>
+							<a href="https://github.com/joeaoregan/Java-AppsAndTutorials/tree/master/Connect5/src/jor/con5/text" target="_blank">Java Console</a><br>
+							<a href="https://github.com/joeaoregan/Java-AppsAndTutorials/tree/master/Connect5/src/jor/con5/gui" target="_blank">Java GUI</a><br>
+							<a href="https://github.com/joeaoregan/Python-GamesAndTutorials/tree/master/Connect5-Console" target="_blank">Python Console</a><br>
+							<a href="https://github.com/joeaoregan/Python-GamesAndTutorials/tree/master/Connect5-GUI" target="_blank">Python GUI</a>
+						</td>
+					</tr>
+				</table>
+				<br>
+			</div>			
+		</div>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="game-connect5/game.js"></script>
+		<script src="game-connect5/chat.js"></script>
+	</body>
+</html>

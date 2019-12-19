@@ -399,7 +399,7 @@ iframe {
 }
 @media screen and (max-width: 1000px) {
 	body {
-		font-size: .75em;
+		font-size: .85em;
 	}
 	.menu {
 		width: 100%;
@@ -414,7 +414,7 @@ iframe {
 }
 @media screen and (max-width: 650px) {
 	body {
-		font-size: .55em;
+		font-size: .75em;
 	}
 	.menu {
 		width: 100%;
