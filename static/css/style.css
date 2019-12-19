@@ -787,3 +787,9 @@ center {
 	background-color: purple;
 	border: 2px solid white;
 }
+
+.fb-like {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
