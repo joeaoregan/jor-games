@@ -1,0 +1,158 @@
+/*
+	Joe O'Regan
+	11/01/2019
+*/
+
+body {
+	text-align: center;
+}
+
+.body-section {
+	padding: 10px;
+	margin: 20px 10px;
+	border-radius: 15px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.selectGame {
+	min-height: 600px;
+}
+
+
+.linkTbl {
+	margin: auto;
+	width: 720px;
+}
+
+.linkTbl:td {
+	width: 250px;
+}
+
+/* .title, .main, .chatdiv, .footer { */
+.chatdiv, .footer {
+	margin: auto;
+	width: 90%;
+	border-radius: 10px;
+	text-align: center;
+	padding: 1px;
+}
+
+.column {
+	background-color: blue;
+}
+
+.column:hover {
+	background-color: orange;
+	/* Highlight the column when the mouse is over it */
+	background-image: linear-gradient(yellow, orange);
+}
+
+.frame {
+	border: 3px solid #333;
+	background-color: blue;
+	border-radius: 15px;
+	max-width: 450px;
+}
+
+.col0, .col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8 {
+	background-image: linear-gradient(to bottom right, white, grey);
+}
+
+input[type=text], .button {
+	font-size: 125%;
+	padding: 10px;
+	border-radius: 15px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.game {
+	max-width: 720px;
+	margin: auto;
+}
+
+.footer {
+	margin-top: 50px;
+	background-color: dimgrey;
+	color: white;
+}
+
+a:hover {
+	color: grey;
+}
+
+a {
+	color: white;
+}
+
+table.frame {
+	/* Center the game board */
+	margin: 0 auto;
+}
+
+.dropbtn {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+.gameBoard {
+	text-align: center;
+	/* Hide the connect 5 board until a game is created */
+	display: none;
+	max-width: 100%;
+}
+
+
+table {
+	margin: 2.5%;
+	padding: 2%;
+	max-width: 90%;
+}
+
+td {
+	height: 36px;
+	width: 36px;
+	min-width: 36px;
+	min-height: 36px;
+	max-width: 50px;
+	max-height: 50px;
+	
+	text-align: center;
+	vertical-align: middle;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	cursor: pointer;
+	border-radius: 35px;
+}
+
+@media screen and (min-width: 650px) {
+	td {
+		height: 50px;
+		width: 50px;
+		min-width: 50px;
+		max-width: 60px;
+	}
+}
+@media screen and (min-width: 1000px) {
+	td {
+		height: 70px;
+		width: 70px;
+		min-width: 70px;
+		max-width: 80px;
+	}
+}
+@media screen and (min-width: 1357px) {
+	td {
+		height: 90px;
+		width: 90px;
+		min-width: 90px;
+		max-width: 100%;
+		border-radius: 50px;
+	}
+	table {
+		margin: 5px;
+		padding: 2.5px 5px;
+	}
+}

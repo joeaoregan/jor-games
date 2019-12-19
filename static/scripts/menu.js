@@ -24,6 +24,12 @@ var menuItems = [
 		"id": "menu-antibody"
 	},
 	{
+		"name": "Connect 5",
+		"url": "connect5.html",
+		"title": "Play Connect5",
+		"id": "menu-connect5"
+	},
+	{
 		"name": "Flappy Bird JS",
 		"url": "flappybird.html",
 		"title": "Play Flappy Bird",
