@@ -1,3 +1,5 @@
+[Web App](https://jor-games.onrender.com/ "Click to go to JOR Games website")
+
 # NCI-WebDesign-CA
 
 Group project for Web Design module of HDip in Science in Computing (Cyber Security)
@@ -86,5 +88,5 @@ Ian Fitzpatrick | x19175400@student.ncirl.ie | [ianfitzpatrick52](https://github
 
 ## Links
 
-* [Live Web Page](http://wdtest2019jim.gearhostpreview.com/index.html) using [GearHost Local Git Deploy](https://www.gearhost.com/documentation/git-deploy-your-application)
+* [Web Page]([http://wdtest2019jim.gearhostpreview.com/index.html](https://jor-games.onrender.com/)) using [Render - Previously: GearHost Local Git Deploy](https://www.gearhost.com/documentation/git-deploy-your-application)
 * [Project Spec](https://github.com/joeaoregan/NCI-WebDesign-CA/wiki/Project-Spec)
