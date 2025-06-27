@@ -8,3 +8,6 @@ scripts/goople-maps-api-key.js
 
 coverage
 node_modules
+
+# Render.com warning
+package-lock.json

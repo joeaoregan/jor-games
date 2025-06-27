@@ -1,4 +1,6 @@
-[Web App](https://jor-games.onrender.com/ "Click to go to JOR Games website")
+[Web App on Render.com](https://jor-games.onrender.com/ "Click to go to JOR Games website")
+
+[App on GitHub Pages](https://joeaoregan.github.io/jor-games/)
 
 # JOR-Games (Deployed NCI-WebDesign-CA)
 
