@@ -15,6 +15,9 @@
     "start": "node server.js",
     "dev": "nodemon index.js"
   },
+  "engines": {
+    "node": ">= 18"
+  },
   "author": "Joe O'Regan",
   "license": "ISC",
   "repository": {
