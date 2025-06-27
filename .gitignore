@@ -6,4 +6,5 @@
 # Ignore the google api key
 scripts/goople-maps-api-key.js
 
+coverage
 node_modules
