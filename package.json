@@ -1,25 +1,28 @@
 {
-  "name": "heroku-test",
+  "name": "NCI-WebDesign-CA",
   "version": "1.0.0",
-  "description": "Simple chat application using JavaScript and Node.js",
+  "description": "Group project for Web Design module of HDip in Science in Computing (Cyber Security)",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.17.1",
-    "socket.io": "^2.2.0"
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "nodemon index.js"
   },
-  "author": "",
+  "author": "Joe O'Regan",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joeaoregan/chat-jor.git"
+    "url": "git+https://github.com/joeaoregan/jor-games"
   },
   "bugs": {
-    "url": "https://github.com/joeaoregan/chat-jor/issues"
+    "url": "https://github.com/joeaoregan/jor-games/issues"
   },
-  "homepage": "https://github.com/joeaoregan/chat-jor#readme"
+  "homepage": "https://github.com/joeaoregan/jor-games#readme"
 }
